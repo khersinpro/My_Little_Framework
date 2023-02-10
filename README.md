@@ -11,7 +11,9 @@ P4 => cd public, php -S localhost:'port'
 
 Création d'un controller et ajout dans les modules pris en compte de l'application:
     => Création du controller dans src/Controller
+    
     => Le controller doit extends de AbstractController, doit appeler son constructeur et lui passer le Container en param
+    
     => Dans public/index.php, ajouter le namespace du controller dans le tableau $modules
 
 *** Ajout de class dans le Injection de dépendences ***
