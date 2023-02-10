@@ -3,8 +3,11 @@
 *** Initialisation du projet ***
 
 P1 => Clonner le repertoire, git clone https://github.com/khersinpro/My_Little_Framework.git
+
 P2 => Installation des dépendences, composer install
+
 P3 => Renommer le fichier .example.env en .env et ajouter les informations pour connecter la base de donnée
+
 P4 => cd public, php -S localhost:'port'
 
 *** Ajout de controller***
